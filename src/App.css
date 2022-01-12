@@ -1,0 +1,92 @@
+.app {
+  background: #ECEFF1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app_wrapper {
+  position: relative;
+  max-width: 720px;
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter__form {
+  display: flex;
+  height: auto;
+  justify-content: start;
+}
+
+.counter__form .base-button {
+  width: 200px;
+  margin-left: 16px;
+}
+
+.base-input {
+  display: inline-block;
+}
+
+.base-input label {
+  font-size: 18px;
+  font-weight: 300;
+  display: block;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.base-input input {
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.base-button {
+  background-color: #1E88E5;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 4px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: all .3s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+.base-button:hover, .base-button:active, .base-button:focus {
+  background-color: #29B6F6;
+  transition: all .5s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+.display {
+  background: linear-gradient(45deg, #01579B, #1E88E5);
+  color: #BBDEFB;
+  font-size: 20px;
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.display__counter {
+  width: auto;
+  text-transform: uppercase;
+}
+
+.display__highlight {
+  font-weight: bold;
+  background: #BBDEFB;
+  color: #01579B;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
